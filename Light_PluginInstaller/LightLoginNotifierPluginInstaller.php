@@ -1,7 +1,7 @@
 <?php
 
 
-namespace Ling\Light_TaskScheduler\Light_PluginInstaller;
+namespace Ling\Light_LoginNotifier\Light_PluginInstaller;
 
 
 use Ling\Light_PluginInstaller\PluginInstaller\LightBasePluginInstaller;

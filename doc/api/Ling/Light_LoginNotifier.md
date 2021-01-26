@@ -101,6 +101,13 @@ Table of contents
     - [LightLoginNotifierApiFactory::setPdoWrapper](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Api/Generated/LightLoginNotifierApiFactory/setPdoWrapper.md) &ndash; Sets the pdoWrapper.
     - [LightLoginNotifierApiFactory::setContainer](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Api/Generated/LightLoginNotifierApiFactory/setContainer.md) &ndash; Sets the container.
 - [LightLoginNotifierException](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Exception/LightLoginNotifierException.md) &ndash; The LightLoginNotifierException class.
+- [LightLoginNotifierPluginInstaller](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Light_PluginInstaller/LightLoginNotifierPluginInstaller.md) &ndash; The LightLoginNotifierPluginInstaller class.
+    - LightBasePluginInstaller::__construct &ndash; Builds the LightBasePluginInstaller instance.
+    - LightBasePluginInstaller::setContainer &ndash; Sets the container.
+    - LightBasePluginInstaller::install &ndash; Installs the plugin in the light application.
+    - LightBasePluginInstaller::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
+    - LightBasePluginInstaller::uninstall &ndash; Uninstalls the plugin.
+    - LightBasePluginInstaller::getDependencies &ndash; Returns the array of dependencies.
 - [LightLoginNotifierService](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Service/LightLoginNotifierService.md) &ndash; The LightLoginNotifierService class.
     - [LightLoginNotifierService::__construct](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Service/LightLoginNotifierService/__construct.md) &ndash; Builds the LightLoginNotifierService instance.
     - [LightLoginNotifierService::onWebsiteUserLogin](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Service/LightLoginNotifierService/onWebsiteUserLogin.md) &ndash; Notifies the Light_LoginNotifier plugin that a website user has just logged in.

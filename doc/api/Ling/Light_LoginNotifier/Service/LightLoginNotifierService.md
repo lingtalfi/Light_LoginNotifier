@@ -98,4 +98,4 @@ See the source code of [Ling\Light_LoginNotifier\Service\LightLoginNotifierServi
 
 SeeAlso
 ==============
-Previous class: [LightLoginNotifierException](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Exception/LightLoginNotifierException.md)<br>
+Previous class: [LightLoginNotifierPluginInstaller](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Light_PluginInstaller/LightLoginNotifierPluginInstaller.md)<br>
