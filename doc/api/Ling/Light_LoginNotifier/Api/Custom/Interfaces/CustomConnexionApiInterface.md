@@ -4,7 +4,7 @@
 
 The CustomConnexionApiInterface class
 ================
-2020-11-27 --> 2020-12-08
+2020-11-27 --> 2021-01-26
 
 
 

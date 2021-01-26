@@ -1,6 +1,6 @@
 Light_LoginNotifier
 ===========
-2020-11-30
+2020-11-30 -> 2021-01-26
 
 
 
@@ -58,15 +58,7 @@ login_notifier:
                 send_notification_to_admin:
                     - myadmin_email@gmail.com
 
-    
-
-$plugin_installer.methods_collection: 
-    - 
-        method: registerPlugin
-        args: 
-            plugin: Light_LoginNotifier
-            installer: @service(login_notifier)
-        
+            
     
 
 
@@ -76,6 +68,10 @@ $plugin_installer.methods_collection:
 
 History Log
 =============
+
+- 1.0.3 -- 2021-01-26
+
+    - adapt api to work with new Light_PluginInstaller
 
 - 1.0.2 -- 2020-12-08
 

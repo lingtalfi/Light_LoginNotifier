@@ -1,6 +1,6 @@
 Ling/Light_LoginNotifier
 ================
-2020-11-27 --> 2020-12-08
+2020-11-27 --> 2021-01-26
 
 
 
@@ -105,13 +105,9 @@ Table of contents
     - [LightLoginNotifierService::__construct](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Service/LightLoginNotifierService/__construct.md) &ndash; Builds the LightLoginNotifierService instance.
     - [LightLoginNotifierService::onWebsiteUserLogin](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Service/LightLoginNotifierService/onWebsiteUserLogin.md) &ndash; Notifies the Light_LoginNotifier plugin that a website user has just logged in.
     - [LightLoginNotifierService::getFactory](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/doc/api/Ling/Light_LoginNotifier/Service/LightLoginNotifierService/getFactory.md) &ndash; Returns the factory for this plugin's api.
-    - LightLingStandardService01::setContainer &ndash; Sets the container.
-    - LightLingStandardService01::setOptions &ndash; Sets the options.
-    - LightLingStandardService01::install &ndash; Installs the plugin in the light application.
-    - LightLingStandardService01::isInstalled &ndash; Returns whether the core install phase of the plugin is fully completed.
-    - LightLingStandardService01::uninstall &ndash; Uninstalls the plugin.
-    - LightLingStandardService01::getDependencies &ndash; Returns the array of dependencies.
-    - LightLingStandardService01::logDebug &ndash; Sends a message to the debug log, only if the useDebug option is set to true.
+    - LightLingStandardService02::setContainer &ndash; Sets the container.
+    - LightLingStandardService02::setOptions &ndash; Sets the options.
+    - LightLingStandardService02::logDebug &ndash; Sends a message to the debug log, only if the useDebug option is set to true.
 
 
 Dependencies
@@ -119,6 +115,7 @@ Dependencies
 - [SimplePdoWrapper](https://github.com/lingtalfi/SimplePdoWrapper)
 - [Light](https://github.com/lingtalfi/Light)
 - [Light_Database](https://github.com/lingtalfi/Light_Database)
+- [Light_PluginInstaller](https://github.com/lingtalfi/Light_PluginInstaller)
 - [Light_LingStandardService](https://github.com/lingtalfi/Light_LingStandardService)
 - [Light_Mailer](https://github.com/lingtalfi/Light_Mailer)
 - [Light_User](https://github.com/lingtalfi/Light_User)
