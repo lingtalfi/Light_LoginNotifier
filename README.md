@@ -1,6 +1,6 @@
 Light_LoginNotifier
 ===========
-2020-11-30 -> 2021-01-26
+2020-11-30 -> 2021-01-28
 
 
 
@@ -69,6 +69,10 @@ login_notifier:
 History Log
 =============
 
+- 1.0.5 -- 2021-01-28
+
+    - adapt to work with new Light_PluginInstaller api
+  
 - 1.0.4 -- 2021-01-26
 
     - fix LightLoginNotifierPluginInstaller, functional typo in namespace

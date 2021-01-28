@@ -14,10 +14,14 @@ class LightLoginNotifierPluginInstaller extends LightBasePluginInstaller
 {
 
 
+
+    //--------------------------------------------
+    // TableScopeAwareInterface
+    //--------------------------------------------
     /**
-     * @overrides
+     * @implementation
      */
-    protected function registerTableScope(): array
+    public function getTableScope(): array
     {
         return [
             "lln_connexion",
