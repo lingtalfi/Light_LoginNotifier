@@ -47,7 +47,7 @@ Returns array.
 
 Source Code
 ===========
-See the source code for method [LightLoginNotifierPluginInstaller::getTableScope](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/Light_PluginInstaller/LightLoginNotifierPluginInstaller.php#L24-L29)
+See the source code for method [LightLoginNotifierPluginInstaller::getTableScope](https://github.com/lingtalfi/Light_LoginNotifier/blob/master/Light_PluginInstaller/LightLoginNotifierPluginInstaller.php#L23-L28)
 
 
 See Also

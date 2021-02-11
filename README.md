@@ -1,6 +1,6 @@
 Light_LoginNotifier
 ===========
-2020-11-30 -> 2021-01-28
+2020-11-30 -> 2021-02-11
 
 
 
@@ -69,6 +69,10 @@ login_notifier:
 History Log
 =============
 
+- 1.0.6 -- 2021-02-11
+
+    - update api, plugin installer now extends LightUserDatabaseBasePluginInstaller
+  
 - 1.0.5 -- 2021-01-28
 
     - adapt to work with new Light_PluginInstaller api

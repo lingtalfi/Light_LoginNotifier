@@ -4,15 +4,14 @@
 namespace Ling\Light_LoginNotifier\Light_PluginInstaller;
 
 
-use Ling\Light_PluginInstaller\PluginInstaller\LightBasePluginInstaller;
+use Ling\Light_UserDatabase\Light_PluginInstaller\LightUserDatabaseBasePluginInstaller;
 
 
 /**
  * The LightLoginNotifierPluginInstaller class.
  */
-class LightLoginNotifierPluginInstaller extends LightBasePluginInstaller
+class LightLoginNotifierPluginInstaller extends LightUserDatabaseBasePluginInstaller
 {
-
 
 
     //--------------------------------------------
